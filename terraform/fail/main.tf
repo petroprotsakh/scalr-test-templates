@@ -1,4 +1,4 @@
-resource "null_resource" "fail1" {
+resource "null_resource" "fail" {
   provisioner "local-exec" {
     command = "exit 1"
   }
